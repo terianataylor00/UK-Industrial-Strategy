@@ -121,7 +121,7 @@ main img{
 .home-cards{
   display: flex;
   flex-direction: row;
-  
+  width: 50%;
   margin-top: 30px; margin-bottom: 30px;
   
 }
