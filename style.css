@@ -123,8 +123,6 @@ main img{
   margin-top: 30px; margin-bottom: 30px;
 }
 
-
-
 .card-section{
   width: 250px;
   border-radius: 10px;
@@ -136,6 +134,7 @@ main img{
   width: 150px;
   justify-self: center;
   margin-top: 30px;
+  margin: 0 auto;
 }
 
 .home-card1, .home-card2{
