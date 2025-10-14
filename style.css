@@ -45,6 +45,7 @@ main {
   flex-direction: column;
   justify-self: center;
   width: 80%;
+  margin: 0 auto;
 }
 
 
@@ -137,6 +138,7 @@ main img{
   width: 150px;
   justify-self: center;
   margin-top: 30px;
+  margin: 0 auto;
 }
 
 .home-card1, .home-card2{
