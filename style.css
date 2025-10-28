@@ -118,28 +118,41 @@ main img{
 
 .home-cards{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 30px; margin-bottom: 30px;
+  justify-content: center;  
+  align-items: stretch;
+  gap: 32px;              
+  flex-wrap: wrap;          
+  margin: 30px auto;        
 }
-
-
-
 .card-section{
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 320px;             
+  border-radius: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
+  display: flex;            
+  flex-direction: column;
+  align-items: center;      
+  text-align: left;        
+  padding: 20px;
 }
-
 .card-section img{
-  display: flex;
+  display: block;
   width: 150px;
-  justify-self: center;
-  margin-top: 30px;
+  height: auto;
+  margin: 8px auto 10px;
 }
 
 .home-card1, .home-card2{
-  padding: 30px;
+  padding: 10px 6px 20px;
+}
+
+.main-content{
+  max-width: 900px;
+  margin: 0 auto 80px;
+  text-align: center;       
+}
+
+.main-content p{
+  line-height: 1.6;
 }
 
 .left, .right{
