@@ -131,7 +131,7 @@ main img{
   display: flex;            
   flex-direction: column;
   align-items: center;      
-  text-align: left;        
+  text-align: center;        
   padding: 20px;
 }
 .card-section img{
@@ -139,12 +139,16 @@ main img{
   width: 150px;
   height: auto;
   margin: 8px auto 10px;
+  margin-bottom: 30px;
 }
 
 .home-card1, .home-card2{
   padding: 10px 6px 20px;
 }
-
+.m1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .main-content{
   max-width: 900px;
   margin: 0 auto 80px;
@@ -173,6 +177,22 @@ main img{
 
 .home-p2{
   margin-bottom: 80px;
+}
+/* Wrap the two cards + bottom text in a parent section */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* centers the entire section horizontally */
+  justify-content: center; /* centers vertically if needed */
+  text-align: center;      /* centers any inner text */
+  width: 100%;
+  margin: 0 auto 40px;
+}
+
+/* Optional: constrain the whole content width so it doesn’t span edge to edge */
+.home-section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /**********************************
@@ -523,3 +543,4 @@ Partners Page
     width: 90%;
   }
 }
+
