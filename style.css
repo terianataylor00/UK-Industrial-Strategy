@@ -149,14 +149,15 @@ main img{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.main-content{
+.main-content {
   max-width: 900px;
-  margin: 0 auto 80px;
-  text-align: center;       
+  margin: 0 auto 30px;        /* reduce bottom space */
+  text-align: center;
 }
 
-.main-content p{
+.main-content p {
   line-height: 1.6;
+  margin-bottom: 10px;        /* tighter spacing between paragraphs */
 }
 
 .left, .right{
@@ -182,17 +183,21 @@ main img{
 .home-section {
   display: flex;
   flex-direction: column;
-  align-items: center;     /* centers the entire section horizontally */
-  justify-content: center; /* centers vertically if needed */
-  text-align: center;      /* centers any inner text */
+  align-items: center;        /* centers the section horizontally */
+  justify-content: center;
+  text-align: center;
   width: 100%;
-  margin: 0 auto 40px;
+  margin: 0 auto 20px;        /* reduced bottom margin */
 }
 
-/* Optional: constrain the whole content width so it doesn’t span edge to edge */
+/* Centers the inner content */
 .home-section-inner {
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* centers cards + paragraphs */
+  justify-content: center;
 }
 
 /**********************************
@@ -543,4 +548,3 @@ Partners Page
     width: 90%;
   }
 }
-
